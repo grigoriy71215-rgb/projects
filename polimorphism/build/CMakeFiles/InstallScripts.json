@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/grigory/projects/polimorphism/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

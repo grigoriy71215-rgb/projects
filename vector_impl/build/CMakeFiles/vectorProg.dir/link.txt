@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/vectorProg.dir/link.d CMakeFiles/vectorProg.dir/main.cpp.o CMakeFiles/vectorProg.dir/vector.cpp.o -o vectorProg  -Wl,-rpath,/home/grigory/projects/vector_impl/build libvector.so

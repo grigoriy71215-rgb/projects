@@ -1,0 +1,4 @@
+/home/grigory/projects/vector_impl/build/CMakeFiles/vector.dir
+/home/grigory/projects/vector_impl/build/CMakeFiles/vectorProg.dir
+/home/grigory/projects/vector_impl/build/CMakeFiles/edit_cache.dir
+/home/grigory/projects/vector_impl/build/CMakeFiles/rebuild_cache.dir

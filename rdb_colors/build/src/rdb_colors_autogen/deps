@@ -1,0 +1,5 @@
+rdb_colors_autogen/timestamp: \
+	/home/grigory/projects/rdb_colors/src/CMakeLists.txt \
+	/home/grigory/projects/rdb_colors/src/main.cpp \
+	/home/grigory/projects/rdb_colors/src/resources.qrc \
+	/usr/bin/cmake

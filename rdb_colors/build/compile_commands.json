@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/grigory/projects/rdb_colors/build/src",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QML_LIB -I/home/grigory/projects/rdb_colors/build/src/rdb_colors_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtQml -isystem /usr/include/qt/QtNetwork -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o CMakeFiles/rdb_colors.dir/rdb_colors_autogen/mocs_compilation.cpp.o -c /home/grigory/projects/rdb_colors/build/src/rdb_colors_autogen/mocs_compilation.cpp",
+  "file": "/home/grigory/projects/rdb_colors/build/src/rdb_colors_autogen/mocs_compilation.cpp",
+  "output": "src/CMakeFiles/rdb_colors.dir/rdb_colors_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/grigory/projects/rdb_colors/build/src",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QML_LIB -I/home/grigory/projects/rdb_colors/build/src/rdb_colors_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtQml -isystem /usr/include/qt/QtNetwork -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o CMakeFiles/rdb_colors.dir/main.cpp.o -c /home/grigory/projects/rdb_colors/src/main.cpp",
+  "file": "/home/grigory/projects/rdb_colors/src/main.cpp",
+  "output": "src/CMakeFiles/rdb_colors.dir/main.cpp.o"
+},
+{
+  "directory": "/home/grigory/projects/rdb_colors/build/src",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QML_LIB -I/home/grigory/projects/rdb_colors/build/src/rdb_colors_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtQml -isystem /usr/include/qt/QtNetwork -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o CMakeFiles/rdb_colors.dir/qrc_resources.cpp.o -c /home/grigory/projects/rdb_colors/build/src/qrc_resources.cpp",
+  "file": "/home/grigory/projects/rdb_colors/build/src/qrc_resources.cpp",
+  "output": "src/CMakeFiles/rdb_colors.dir/qrc_resources.cpp.o"
+}
+]

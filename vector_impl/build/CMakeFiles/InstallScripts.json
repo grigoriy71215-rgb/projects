@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/grigory/projects/vector_impl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -lpthread -save-temps -Wl,--dependency-file=CMakeFiles/addition.dir/link.d -shared -Wl,-soname,libaddition.so -o libaddition.so CMakeFiles/addition.dir/addition.cpp.o
