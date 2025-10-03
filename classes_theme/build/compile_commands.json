@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/grigory/projects/classes_theme/build",
+  "command": "/usr/bin/c++ -DMyClass_EXPORTS   -Wall -lpthread -std=gnu++20 -fPIC -o CMakeFiles/MyClass.dir/src/MyClass.cpp.o -c /home/grigory/projects/classes_theme/src/MyClass.cpp",
+  "file": "/home/grigory/projects/classes_theme/src/MyClass.cpp",
+  "output": "CMakeFiles/MyClass.dir/src/MyClass.cpp.o"
+},
+{
+  "directory": "/home/grigory/projects/classes_theme/build",
+  "command": "/usr/bin/c++    -Wall -lpthread -std=gnu++20 -o CMakeFiles/ClassTheme.dir/main.cpp.o -c /home/grigory/projects/classes_theme/main.cpp",
+  "file": "/home/grigory/projects/classes_theme/main.cpp",
+  "output": "CMakeFiles/ClassTheme.dir/main.cpp.o"
+},
+{
+  "directory": "/home/grigory/projects/classes_theme/build",
+  "command": "/usr/bin/c++    -Wall -lpthread -std=gnu++20 -o CMakeFiles/ClassTheme.dir/src/MyClass.cpp.o -c /home/grigory/projects/classes_theme/src/MyClass.cpp",
+  "file": "/home/grigory/projects/classes_theme/src/MyClass.cpp",
+  "output": "CMakeFiles/ClassTheme.dir/src/MyClass.cpp.o"
+}
+]

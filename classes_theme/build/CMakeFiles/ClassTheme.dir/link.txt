@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/ClassTheme.dir/link.d CMakeFiles/ClassTheme.dir/main.cpp.o CMakeFiles/ClassTheme.dir/src/MyClass.cpp.o -o ClassTheme  -Wl,-rpath,/home/grigory/projects/classes_theme/build libMyClass.so

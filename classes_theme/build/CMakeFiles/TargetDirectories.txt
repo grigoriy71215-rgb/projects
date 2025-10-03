@@ -1,0 +1,4 @@
+/home/grigory/projects/classes_theme/build/CMakeFiles/MyClass.dir
+/home/grigory/projects/classes_theme/build/CMakeFiles/ClassTheme.dir
+/home/grigory/projects/classes_theme/build/CMakeFiles/edit_cache.dir
+/home/grigory/projects/classes_theme/build/CMakeFiles/rebuild_cache.dir
