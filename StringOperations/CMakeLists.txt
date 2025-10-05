@@ -6,8 +6,19 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -lpthread")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_library(StringOperations SHARED ./src/StringOperations.cpp)
+add_library(OccuranciesGetter SHARED ./src/OccuranciesGetter.cpp)
 
-add_executable(StringOperationsProject ./main.cpp ./src/StringOperations.cpp)
-target_link_libraries(StringOperationsProject StringOperations)
+add_executable(StringOperationsProject ./main.cpp ./src/OccuranciesGetter.cpp)
+target_link_libraries(StringOperationsProject OccuranciesGetter)
 
+install(TARGETS
+    OccuranciesGetter
+    RUNTIME DESTINATION bin
+    LIBRARY DESTINATION lib/string-operations
+    ARCHIVE DESTINATION lib/string-operations
+)
+
+install(FILES
+    include/OccuranciesGetter.h
+    DESTINATION include/string-operations
+)
