@@ -1,12 +1,9 @@
 #include "../include/OccuranciesGetter.h"
 
 OccuranciesGetter::OccuranciesGetter(const std::string &ourString,
-                                     const std::string &subString) { // строка
-  // и подстрока, в которых мы ищем число вхождений
-
-  this->ourString = ourString; // cтрока
-  this->subString = subString; // подстрока
-}
+                                     const std::string &subString) {
+} // строка и подстрока, в которых мы ищем число вхождений this->ourString =
+  // ourString; // cтрока this->subString = subString; // подстрока }
 
 int OccuranciesGetter::getCountOfOccurancies() { // функция поиска совпадения
   // строки и подстроки возвращает номер символа в строке, с которого есть
