@@ -1,8 +1,9 @@
-#include "../include/VowelGetter.h"
-#include <algorithm>
-#include <functional>
-#include <iostream>
-#include <string>
+#include "../include/VowelGetter.h" // библиотека данных для потока вывода
+// VowelGetter
+#include <algorithm>  // библиотека данных для потока вывода distance
+#include <functional> // библиотека данных для потока вывода find_if
+#include <iostream>   // библиотека данных для потока вывода cout
+#include <string>     // библиотека данных для потока вывода string
 
 std::string ourString = "Test test test"; // ввод строки
 std::string vowels = "";                  // словарь гласных
@@ -12,22 +13,25 @@ std::string vowels = "";                  // словарь гласных
  * */
 
 void VowelGetter::getVowelsDictionary() {
-  std::cout << "введите гласные: ";
+  std::cout << "введите гласные: "; // ввод гласных пользователем
   std::cin >> vowels;
 } /* Цель: определить, является ли знак гласной буквой. план функции: 1. если
      словарь пустой, вызвать функцию заполнения словаря пользователем 2. вернуть
      нахождение искомой буквы в строке гласных*/
 
-bool VowelGetter::isVowel(char ch) {
-  if (vowels.empty())
-    getVowelsDictionary();
-  return vowels.find(ch) != std::string::npos;
+bool VowelGetter::isVowel(char ch) { // определяет, является ли переданный
+  // символ гласной буквой
+  if (vowels.empty())      // проверяет является ли строка пустой
+    getVowelsDictionary(); // вызов функции
+  return vowels.find(ch) != std::string::npos; // проверяе содержится символ
+  // ch в строке vowels
 }
 
 /* Цель: получить позицию по итератору план функции:
  * 1. возвратить std::distance от begin() и итератора в параметре*/
 int VowelGetter::getPosByIterator(std::string::iterator stringIterator) {
-  return std::distance(ourString.begin(), stringIterator);
+  return std::distance(ourString.begin(), stringIterator); // вычисляет позицию
+  // // в строке
 }
 
 /* Цель: получить итератор по позиции план функции:

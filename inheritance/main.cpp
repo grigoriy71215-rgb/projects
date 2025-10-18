@@ -13,7 +13,7 @@ public:        // публичные члены класса
 
 class Lion final : public Animal { // пишем класс Lion, наследуемый от Animal
 public:                            // публичные члены класса
-  void eat() override {
+  void eat() override {            // override -
     std::cout << "Lion is eating\n";
   } // выводим на экран Lion is eating
   void jump() override {
