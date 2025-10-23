@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/Factoring.dir/link.d -shared -Wl,-soname,libFactoring.so -o libFactoring.so CMakeFiles/Factoring.dir/impl/Factoring.cpp.o

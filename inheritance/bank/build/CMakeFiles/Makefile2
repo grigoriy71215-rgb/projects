@@ -63,10 +63,14 @@ CMAKE_BINARY_DIR = /home/grigory/projects/inheritance/bank/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Factoring.dir/all
+all: CMakeFiles/ConsumerCredit.dir/all
 all: CMakeFiles/bank.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/Factoring.dir/codegen
+codegen: CMakeFiles/ConsumerCredit.dir/codegen
 codegen: CMakeFiles/bank.dir/codegen
 .PHONY : codegen
 
@@ -75,22 +79,89 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Factoring.dir/clean
+clean: CMakeFiles/ConsumerCredit.dir/clean
 clean: CMakeFiles/bank.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Factoring.dir
+
+# All Build rule for target.
+CMakeFiles/Factoring.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factoring.dir/build.make CMakeFiles/Factoring.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factoring.dir/build.make CMakeFiles/Factoring.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=3,4 "Built target Factoring"
+.PHONY : CMakeFiles/Factoring.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Factoring.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grigory/projects/inheritance/bank/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Factoring.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grigory/projects/inheritance/bank/build/CMakeFiles 0
+.PHONY : CMakeFiles/Factoring.dir/rule
+
+# Convenience name for target.
+Factoring: CMakeFiles/Factoring.dir/rule
+.PHONY : Factoring
+
+# codegen rule for target.
+CMakeFiles/Factoring.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factoring.dir/build.make CMakeFiles/Factoring.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=3,4 "Finished codegen for target Factoring"
+.PHONY : CMakeFiles/Factoring.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Factoring.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Factoring.dir/build.make CMakeFiles/Factoring.dir/clean
+.PHONY : CMakeFiles/Factoring.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ConsumerCredit.dir
+
+# All Build rule for target.
+CMakeFiles/ConsumerCredit.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsumerCredit.dir/build.make CMakeFiles/ConsumerCredit.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsumerCredit.dir/build.make CMakeFiles/ConsumerCredit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=1,2 "Built target ConsumerCredit"
+.PHONY : CMakeFiles/ConsumerCredit.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ConsumerCredit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grigory/projects/inheritance/bank/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ConsumerCredit.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grigory/projects/inheritance/bank/build/CMakeFiles 0
+.PHONY : CMakeFiles/ConsumerCredit.dir/rule
+
+# Convenience name for target.
+ConsumerCredit: CMakeFiles/ConsumerCredit.dir/rule
+.PHONY : ConsumerCredit
+
+# codegen rule for target.
+CMakeFiles/ConsumerCredit.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsumerCredit.dir/build.make CMakeFiles/ConsumerCredit.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=1,2 "Finished codegen for target ConsumerCredit"
+.PHONY : CMakeFiles/ConsumerCredit.dir/codegen
+
+# clean rule for target.
+CMakeFiles/ConsumerCredit.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsumerCredit.dir/build.make CMakeFiles/ConsumerCredit.dir/clean
+.PHONY : CMakeFiles/ConsumerCredit.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/bank.dir
 
 # All Build rule for target.
-CMakeFiles/bank.dir/all:
+CMakeFiles/bank.dir/all: CMakeFiles/Factoring.dir/all
+CMakeFiles/bank.dir/all: CMakeFiles/ConsumerCredit.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bank.dir/build.make CMakeFiles/bank.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bank.dir/build.make CMakeFiles/bank.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=1,2 "Built target bank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=5,6 "Built target bank"
 .PHONY : CMakeFiles/bank.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bank.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grigory/projects/inheritance/bank/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grigory/projects/inheritance/bank/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bank.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/grigory/projects/inheritance/bank/build/CMakeFiles 0
 .PHONY : CMakeFiles/bank.dir/rule
@@ -102,7 +173,7 @@ bank: CMakeFiles/bank.dir/rule
 # codegen rule for target.
 CMakeFiles/bank.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bank.dir/build.make CMakeFiles/bank.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=1,2 "Finished codegen for target bank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=5,6 "Finished codegen for target bank"
 .PHONY : CMakeFiles/bank.dir/codegen
 
 # clean rule for target.

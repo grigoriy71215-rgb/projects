@@ -1,3 +1,5 @@
+/home/grigory/projects/inheritance/bank/build/CMakeFiles/Factoring.dir
+/home/grigory/projects/inheritance/bank/build/CMakeFiles/ConsumerCredit.dir
 /home/grigory/projects/inheritance/bank/build/CMakeFiles/bank.dir
 /home/grigory/projects/inheritance/bank/build/CMakeFiles/edit_cache.dir
 /home/grigory/projects/inheritance/bank/build/CMakeFiles/rebuild_cache.dir

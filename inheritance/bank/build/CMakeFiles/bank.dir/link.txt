@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/bank.dir/link.d CMakeFiles/bank.dir/main.cpp.o -o bank
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/bank.dir/link.d CMakeFiles/bank.dir/main.cpp.o -o bank  -Wl,-rpath,/home/grigory/projects/inheritance/bank/build libConsumerCredit.so libFactoring.so

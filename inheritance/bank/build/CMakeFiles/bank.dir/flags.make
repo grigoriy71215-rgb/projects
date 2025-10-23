@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/grigory/projects/inheritance/bank/./impl -I/home/grigory/projects/inheritance/bank/./abstracts
+CXX_INCLUDES = -I/home/grigory/projects/inheritance/bank/abstracts -I/home/grigory/projects/inheritance/bank/impl -I/home/grigory/projects/inheritance/bank/./abstracts
 
 CXX_FLAGS =  -Wall -lpthread -std=gnu++20
 

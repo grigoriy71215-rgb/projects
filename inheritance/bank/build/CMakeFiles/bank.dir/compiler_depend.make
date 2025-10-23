@@ -3,7 +3,8 @@
 
 CMakeFiles/bank.dir/main.cpp.o: /home/grigory/projects/inheritance/bank/main.cpp \
   /home/grigory/projects/inheritance/bank/abstracts/Credit.hpp \
-  /home/grigory/projects/inheritance/bank/impl/ConsumerCredit.hpp \
+  /home/grigory/projects/inheritance/bank/impl/ConsumerCredit.cpp \
+  /home/grigory/projects/inheritance/bank/impl/Factoring.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -229,7 +230,9 @@ bank: /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/gcc/x86_64-redhat-linux/15/libgcc_s.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib64/libc_nonshared.a \
-  CMakeFiles/bank.dir/main.cpp.o
+  CMakeFiles/bank.dir/main.cpp.o \
+  libConsumerCredit.so \
+  libFactoring.so
 
 
 CMakeFiles/bank.dir/main.cpp.o:
@@ -310,6 +313,8 @@ CMakeFiles/bank.dir/main.cpp.o:
 
 /usr/include/c++/15/iosfwd:
 
+libConsumerCredit.so:
+
 /usr/include/c++/15/ios:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/os_defines.h:
@@ -348,6 +353,10 @@ CMakeFiles/bank.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/stl_iterator_base_types.h:
 
+/usr/include/c++/15/ext/atomicity.h:
+
+/usr/include/c++/15/bits/stl_iterator_base_funcs.h:
+
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/asm/types.h:
@@ -372,6 +381,10 @@ CMakeFiles/bank.dir/main.cpp.o:
 
 /usr/include/bits/types/FILE.h:
 
+/usr/include/c++/15/bits/streambuf_iterator.h:
+
+/usr/include/bits/types.h:
+
 /usr/include/bits/types/error_t.h:
 
 /usr/include/c++/15/bits/utility.h:
@@ -385,6 +398,8 @@ CMakeFiles/bank.dir/main.cpp.o:
 /usr/include/bits/thread-shared-types.h:
 
 /usr/include/bits/types/time_t.h:
+
+libFactoring.so:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -406,6 +421,10 @@ CMakeFiles/bank.dir/main.cpp.o:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
+/lib64/libmvec.so.1:
+
+/usr/include/bits/pthreadtypes.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/asm-generic/posix_types.h:
@@ -414,23 +433,63 @@ CMakeFiles/bank.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/allocator.h:
 
-/lib64/libmvec.so.1:
-
-/usr/include/bits/pthreadtypes.h:
-
 /usr/include/asm-generic/errno.h:
 
 /usr/include/asm-generic/types.h:
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/alloca.h:
+
+/usr/include/c++/15/bits/stl_iterator.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/home/grigory/projects/inheritance/bank/impl/ConsumerCredit.cpp:
+
+/usr/include/c++/15/typeinfo:
+
+/usr/include/c++/15/bits/std_abs.h:
+
+/usr/include/c++/15/iostream:
+
+/home/grigory/projects/inheritance/bank/impl/Factoring.cpp:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/lib64/crt1.o:
+
+/usr/include/c++/15/bits/uses_allocator.h:
+
+/usr/include/c++/15/bits/new_allocator.h:
+
+/home/grigory/projects/inheritance/bank/abstracts/Credit.hpp:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/c++/15/x86_64-redhat-linux/bits/error_constants.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/c++/15/x86_64-redhat-linux/bits/c++locale.h:
+
+/home/grigory/projects/inheritance/bank/main.cpp:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/15/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/include/c++/15/type_traits:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/c++/15/bits/refwrap.h:
+
 /usr/include/asm/posix_types_64.h:
-
-/usr/include/c++/15/bits/streambuf_iterator.h:
-
-/usr/include/bits/types.h:
-
-/home/grigory/projects/inheritance/bank/impl/ConsumerCredit.hpp:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/ctype_inline.h:
 
@@ -450,52 +509,6 @@ CMakeFiles/bank.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/ios_base.h:
 
-/usr/include/c++/15/x86_64-redhat-linux/bits/c++locale.h:
-
-/home/grigory/projects/inheritance/bank/main.cpp:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/c++/15/typeinfo:
-
-/usr/include/c++/15/bits/std_abs.h:
-
-/usr/include/c++/15/iostream:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/15/bits/stl_iterator.h:
-
-/usr/lib64/crt1.o:
-
-/usr/include/c++/15/bits/uses_allocator.h:
-
-/usr/include/c++/15/bits/new_allocator.h:
-
-/home/grigory/projects/inheritance/bank/abstracts/Credit.hpp:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/c++/15/x86_64-redhat-linux/bits/error_constants.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/15/x86_64-redhat-linux/bits/gthr.h:
-
-/usr/include/c++/15/type_traits:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/c++/15/bits/refwrap.h:
-
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/time64.h:
@@ -513,6 +526,10 @@ CMakeFiles/bank.dir/main.cpp.o:
 /usr/include/c++/15/clocale:
 
 /usr/include/c++/15/bits/stl_algobase.h:
+
+/usr/include/c++/15/backward/binders.h:
+
+/usr/include/bits/cpu-set.h:
 
 /usr/include/bits/typesizes.h:
 
@@ -554,6 +571,12 @@ CMakeFiles/bank.dir/main.cpp.o:
 
 /usr/include/bits/wchar.h:
 
+/usr/include/c++/15/bits/version.h:
+
+/usr/include/c++/15/bits/concept_check.h:
+
+/usr/include/bits/types/timer_t.h:
+
 /usr/include/bits/types/wint_t.h:
 
 /usr/include/bits/timesize.h:
@@ -567,16 +590,6 @@ CMakeFiles/bank.dir/main.cpp.o:
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/bits/wordsize.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/c++/15/backward/binders.h:
-
-/usr/include/c++/15/bits/version.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/15/bits/concept_check.h:
 
 /usr/include/pthread.h:
 
@@ -683,7 +696,3 @@ CMakeFiles/bank.dir/main.cpp.o:
 /usr/include/c++/15/bits/ranges_cmp.h:
 
 /usr/include/c++/15/bits/stl_construct.h:
-
-/usr/include/c++/15/ext/atomicity.h:
-
-/usr/include/c++/15/bits/stl_iterator_base_funcs.h:

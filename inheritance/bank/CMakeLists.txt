@@ -9,13 +9,16 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_library(Credit INTERFACE)
 target_include_directories(Credit INTERFACE ./abstracts)
 
-add_library(Factoring INTERFACE)
-target_include_directories(Factoring INTERFACE ./impl)
-target_link_libraries(Factoring INTERFACE Credit)
+include_directories(
+  abstracts
+  impl
+)
 
-add_library(ConsumerCredit INTERFACE)
-target_include_directories(ConsumerCredit INTERFACE ./impl)
-target_link_libraries(ConsumerCredit INTERFACE Credit)
+add_library(Factoring SHARED ./impl/Factoring.cpp)
+target_link_libraries(Factoring PRIVATE Credit)
+
+add_library(ConsumerCredit SHARED ./impl/ConsumerCredit.cpp)
+target_link_libraries(ConsumerCredit PRIVATE Credit)
 
 add_executable(bank ./main.cpp)
 target_link_libraries(bank PRIVATE ConsumerCredit Factoring Credit)

@@ -4,6 +4,8 @@ bank: \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libpthread.a \
   CMakeFiles/bank.dir/main.cpp.o \
+  libConsumerCredit.so \
+  libFactoring.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -41,6 +43,10 @@ bank: \
 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libpthread.a:
 
 CMakeFiles/bank.dir/main.cpp.o:
+
+libConsumerCredit.so:
+
+libFactoring.so:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 

@@ -1,19 +1,16 @@
 #include <iostream> // библиотека данных для потока вывода cout
-#include <memory>   // библиотека данных для потока вывода shared_ptr
 
 class Animal { // animal - животное
 public:        // публичные члены класса
-  virtual void eat() {
-    std::cout << "Animal is eating\n";
-  } // выводим на экран Animal is eating
-  virtual void jump() = 0; // чистая виртуальная функция
+  virtual void eat() = 0;
+  virtual void jump() = 0;
 
   virtual ~Animal() = default; // определяем этот метод автомотически
 };
 
 class Lion final : public Animal { // пишем класс Lion, наследуемый от Animal
 public:                            // публичные члены класса
-  void eat() override {            // override -
+  void eat() override {            // override - перегрузить метод родителя
     std::cout << "Lion is eating\n";
   } // выводим на экран Lion is eating
   void jump() override {
@@ -36,11 +33,10 @@ public:                           // публичные члены класса
 };
 
 int main(int argc, char *argv[]) { // функция с каторой начинается программа
-  std::shared_ptr<Animal> lion; /*front*/ // выводим на экран Lion is eating
-  std::make_shared<Lion>() /*back*/;      // front - вызывающий, back -
-                                          // вызываемый
-  lion->eat();                            // перегруска метода eat
-  return 0;                               // возвращаем 0
+  Animal *lion = new Lion();
+  lion->eat();
+  delete lion;
+  return 0; // возвращаем 0
 }
 
 /*Традиционным способом придать переменной b значение переменной a является

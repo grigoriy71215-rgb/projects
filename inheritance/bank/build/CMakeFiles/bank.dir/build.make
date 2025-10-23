@@ -96,6 +96,8 @@ bank_EXTERNAL_OBJECTS =
 bank: CMakeFiles/bank.dir/main.cpp.o
 bank: CMakeFiles/bank.dir/build.make
 bank: CMakeFiles/bank.dir/compiler_depend.ts
+bank: libConsumerCredit.so
+bank: libFactoring.so
 bank: CMakeFiles/bank.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/grigory/projects/inheritance/bank/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bank"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bank.dir/link.txt --verbose=$(VERBOSE)

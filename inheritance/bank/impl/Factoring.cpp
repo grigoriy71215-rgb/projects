@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../abstracts/Credit.hpp"
+#include "Credit.hpp"
 
 class Factoring final : public Credit {
 public:
@@ -9,5 +9,7 @@ public:
       : Credit(clientName, creditSum) {}
   ~Factoring() = default;
 
-  bool getCreditIssue() { return true; }
+  bool getCreditIssue() override { return true; }
+
+  std::string getCreditName() const override { return "Factoring"; }
 };

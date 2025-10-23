@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/grigory/projects/inheritance/bank/build",
+  "command": "/usr/bin/c++  -I/home/grigory/projects/inheritance/bank/abstracts -I/home/grigory/projects/inheritance/bank/impl -I/home/grigory/projects/inheritance/bank/./impl -I/home/grigory/projects/inheritance/bank/./abstracts  -Wall -lpthread -std=gnu++20 -o CMakeFiles/bank.dir/main.cpp.o -c /home/grigory/projects/inheritance/bank/main.cpp",
+  "file": "/home/grigory/projects/inheritance/bank/main.cpp",
+  "output": "CMakeFiles/bank.dir/main.cpp.o"
+}
+]
