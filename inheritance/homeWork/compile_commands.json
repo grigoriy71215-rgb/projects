@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/grigory/projects/inheritance/homeWork/build",
+  "command": "/usr/bin/c++ -DMonster_EXPORTS -I/home/grigory/projects/inheritance/homeWork/include  -Wall -lpthread -std=gnu++20 -fPIC -o CMakeFiles/Monster.dir/src/monster.cpp.o -c /home/grigory/projects/inheritance/homeWork/src/monster.cpp",
+  "file": "/home/grigory/projects/inheritance/homeWork/src/monster.cpp",
+  "output": "CMakeFiles/Monster.dir/src/monster.cpp.o"
+},
+{
+  "directory": "/home/grigory/projects/inheritance/homeWork/build",
+  "command": "/usr/bin/c++ -DHuman_EXPORTS -I/home/grigory/projects/inheritance/homeWork/include  -Wall -lpthread -std=gnu++20 -fPIC -o CMakeFiles/Human.dir/src/human.cpp.o -c /home/grigory/projects/inheritance/homeWork/src/human.cpp",
+  "file": "/home/grigory/projects/inheritance/homeWork/src/human.cpp",
+  "output": "CMakeFiles/Human.dir/src/human.cpp.o"
+},
+{
+  "directory": "/home/grigory/projects/inheritance/homeWork/build",
+  "command": "/usr/bin/c++  -I/home/grigory/projects/inheritance/homeWork/include  -Wall -lpthread -std=gnu++20 -o CMakeFiles/homeWork.dir/main.cpp.o -c /home/grigory/projects/inheritance/homeWork/main.cpp",
+  "file": "/home/grigory/projects/inheritance/homeWork/main.cpp",
+  "output": "CMakeFiles/homeWork.dir/main.cpp.o"
+}
+]
