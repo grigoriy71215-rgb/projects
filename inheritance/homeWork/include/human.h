@@ -1,12 +1,13 @@
 #pragma once
 
-#include "monster.h"
+#include "monster.h" // библиотека данных для потока вывода monster
 
 class Human final : public Monster {
-  bool isBiting = false;
+  bool isBiting = false; // объявление приватного поля isBiting типа bool
 
-public:
-  Human();
-  void bite();
-  const std::string &getIsMonster();
+public:        // публичные члены класса
+  Human();     // конструктор по умалчанию
+  void bite(); // метод bite, который не принимает аргументов
+  const std::string &getIsMonster(); // метод getIsMonster, который возвращает
+  // константную ссылку
 };

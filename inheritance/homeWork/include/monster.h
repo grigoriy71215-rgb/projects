@@ -1,22 +1,26 @@
 #pragma once
 
-#include <chrono>
-#include <string>
-#include <vector>
+#include <chrono> // библиотека данных для потока вывода chrono
+#include <string> // библиотека данных для потока вывода string
+#include <vector> // библиотека данных для потока вывода vector
 
-class Monster {
+class Monster { // создаем класс monster
 
-  int isMonster;
-  std::chrono::system_clock::time_point biteDate;
+  int isMonster; // объявляет переменную isMonster
+  std::chrono::system_clock::time_point biteDate; // обьявляет переменную
+  // biteDate c типом system_clock
   std::vector<std::string> monsterStates = {"human", "monstering", "monster"};
+  // объявляет и инициализирует вектор строк monsterStates
 
-  std::chrono::duration<double> getBiteDuration() const;
-  const std::string &getMonsterStateById(int id) const;
+  std::chrono::duration<double>
+  getBiteDuration() const; // объявляет функцию getBiteDuration
+  const std::string &
+  getMonsterStateById(int id) const; // объявляет функцию getMonsterStateById
 
 protected:
-  Monster() {}
+  Monster() {} // конструктор по умолчанию
 
 public:
-  void biting();
-  const std::string &getIsMonster();
+  void biting(); // функция biting без возвращающиго типа void
+  const std::string &getIsMonster(); // возврощает константную сылку на строку
 };
