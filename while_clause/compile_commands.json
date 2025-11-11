@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/grigory/cpp/build/WhileClause",
+  "command": "/usr/bin/c++ -DZadanie1_EXPORTS -I/home/grigory/cpp/projects/while_clause/include  -Wall -lpthread -std=gnu++23 -fPIC -o CMakeFiles/Zadanie1.dir/src/Zadanie1.cpp.o -c /home/grigory/cpp/projects/while_clause/src/Zadanie1.cpp",
+  "file": "/home/grigory/cpp/projects/while_clause/src/Zadanie1.cpp",
+  "output": "CMakeFiles/Zadanie1.dir/src/Zadanie1.cpp.o"
+},
+{
+  "directory": "/home/grigory/cpp/build/WhileClause",
+  "command": "/usr/bin/c++ -DZadanie2_EXPORTS -I/home/grigory/cpp/projects/while_clause/include  -Wall -lpthread -std=gnu++23 -fPIC -o CMakeFiles/Zadanie2.dir/src/Zadanie2.cpp.o -c /home/grigory/cpp/projects/while_clause/src/Zadanie2.cpp",
+  "file": "/home/grigory/cpp/projects/while_clause/src/Zadanie2.cpp",
+  "output": "CMakeFiles/Zadanie2.dir/src/Zadanie2.cpp.o"
+},
+{
+  "directory": "/home/grigory/cpp/build/WhileClause",
+  "command": "/usr/bin/c++  -I/home/grigory/cpp/projects/while_clause/include  -Wall -lpthread -std=gnu++23 -o CMakeFiles/WhileClause.dir/main.cpp.o -c /home/grigory/cpp/projects/while_clause/main.cpp",
+  "file": "/home/grigory/cpp/projects/while_clause/main.cpp",
+  "output": "CMakeFiles/WhileClause.dir/main.cpp.o"
+}
+]
