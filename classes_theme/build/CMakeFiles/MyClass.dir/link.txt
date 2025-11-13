@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/MyClass.dir/link.d -shared -Wl,-soname,libMyClass.so -o libMyClass.so CMakeFiles/MyClass.dir/src/MyClass.cpp.o

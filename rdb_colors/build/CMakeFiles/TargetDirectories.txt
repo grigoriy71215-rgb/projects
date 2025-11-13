@@ -1,7 +1,0 @@
-/home/grigory/projects/rdb_colors/build/CMakeFiles/edit_cache.dir
-/home/grigory/projects/rdb_colors/build/CMakeFiles/rebuild_cache.dir
-/home/grigory/projects/rdb_colors/build/src/CMakeFiles/rdb_colors.dir
-/home/grigory/projects/rdb_colors/build/src/CMakeFiles/edit_cache.dir
-/home/grigory/projects/rdb_colors/build/src/CMakeFiles/rebuild_cache.dir
-/home/grigory/projects/rdb_colors/build/src/CMakeFiles/rdb_colors_autogen_timestamp_deps.dir
-/home/grigory/projects/rdb_colors/build/src/CMakeFiles/rdb_colors_autogen.dir
