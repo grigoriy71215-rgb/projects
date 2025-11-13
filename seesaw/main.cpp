@@ -70,8 +70,10 @@ int maxDifference;
 void userInput() {
   for (int childNumber = 1; childNumber < 4; ++childNumber) {
     int buffer = 0;
-    std::cout << "Введите вес " << childNumber << "го ребенка: ";
-    std::cin >> buffer;
+    while (buffer <= 0) {
+      std::cout << "Введите вес " << childNumber << "го ребенка: ";
+      std::cin >> buffer;
+    }
     childrenWeights.push_back(buffer);
   }
   std::cout << "Ведите максимальую разницу в весах: ";
