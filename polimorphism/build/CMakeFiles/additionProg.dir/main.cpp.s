@@ -4,7 +4,7 @@
 	.globl _ZSt21ios_base_library_initv
 	.section	.rodata
 .LC0:
-	.string	"F for int"
+	.string	"F for int: "
 #NO_APP
 	.text
 	.globl	_Z1fi
@@ -19,14 +19,17 @@ _Z1fi:
 	.cfi_def_cfa_register 6
 	subq	$16, %rsp
 	movl	%edi, -4(%rbp)
-	leaq	.LC0(%rip), %rdx
-	leaq	_ZSt4cout(%rip), %rax
-	movq	%rdx, %rsi
-	movq	%rax, %rdi
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movl	$.LC0, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rdx
+	movl	-4(%rbp), %eax
+	movl	%eax, %esi
+	movq	%rdx, %rdi
+	call	_ZNSolsEi
 	movl	$10, %esi
 	movq	%rax, %rdi
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c@PLT
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
 	nop
 	leave
 	.cfi_def_cfa 7, 8
@@ -36,7 +39,7 @@ _Z1fi:
 	.size	_Z1fi, .-_Z1fi
 	.section	.rodata
 .LC1:
-	.string	"F for float"
+	.string	"F for float: "
 	.text
 	.globl	_Z1ff
 	.type	_Z1ff, @function
@@ -50,14 +53,17 @@ _Z1ff:
 	.cfi_def_cfa_register 6
 	subq	$16, %rsp
 	movss	%xmm0, -4(%rbp)
-	leaq	.LC1(%rip), %rdx
-	leaq	_ZSt4cout(%rip), %rax
-	movq	%rdx, %rsi
-	movq	%rax, %rdi
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movl	$.LC1, %esi
+	movl	$_ZSt4cout, %edi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rdx
+	movl	-4(%rbp), %eax
+	movd	%eax, %xmm0
+	movq	%rdx, %rdi
+	call	_ZNSolsEf
 	movl	$10, %esi
 	movq	%rax, %rdi
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c@PLT
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
 	nop
 	leave
 	.cfi_def_cfa 7, 8
@@ -76,35 +82,25 @@ main:
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
 	subq	$16, %rsp
-	movq	%fs:40, %rax
-	movq	%rax, -8(%rbp)
-	xorl	%eax, %eax
-	movl	$5, -16(%rbp)
-	movl	$3, -12(%rbp)
-	leaq	-12(%rbp), %rdx
-	leaq	-16(%rbp), %rax
-	movq	%rdx, %rsi
-	movq	%rax, %rdi
-	call	_ZN8Addition3addERKiS1_@PLT
-	movl	%eax, %edx
-	leaq	_ZSt4cout(%rip), %rax
-	movl	%edx, %esi
-	movq	%rax, %rdi
-	call	_ZNSolsEi@PLT
-	movl	$10, %esi
-	movq	%rax, %rdi
-	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c@PLT
+	movl	$42, -4(%rbp)
+	movss	.LC2(%rip), %xmm0
+	movss	%xmm0, -8(%rbp)
+	movl	-4(%rbp), %eax
+	movl	%eax, %edi
+	call	_Z1fi
+	movl	-8(%rbp), %eax
+	movd	%eax, %xmm0
+	call	_Z1ff
 	movl	$0, %eax
-	movq	-8(%rbp), %rdx
-	subq	%fs:40, %rdx
-	je	.L5
-	call	__stack_chk_fail@PLT
-.L5:
 	leave
 	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
 .LFE1986:
 	.size	main, .-main
-	.ident	"GCC: (GNU) 15.1.1 20250425"
+	.section	.rodata
+	.align 4
+.LC2:
+	.long	1112236543
+	.ident	"GCC: (GNU) 15.2.1 20251022 (Red Hat 15.2.1-3)"
 	.section	.note.GNU-stack,"",@progbits

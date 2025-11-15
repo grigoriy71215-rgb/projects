@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/additionProg.dir/link.d"
-  "CMakeFiles/additionProg.dir/addition.cpp.o"
-  "CMakeFiles/additionProg.dir/addition.cpp.o.d"
   "CMakeFiles/additionProg.dir/main.cpp.o"
   "CMakeFiles/additionProg.dir/main.cpp.o.d"
   "additionProg"

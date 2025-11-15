@@ -1,40 +1,37 @@
-# 0 "/home/grigory/projects/polimorphism/addition.cpp"
+# 0 "/home/grigory/cpp/projects/polimorphism/addition.cpp"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/grigory/projects/polimorphism/addition.cpp"
-# 1 "/home/grigory/projects/polimorphism/addition.h" 1
-       
-
-class Addition {
-public:
-  static unsigned char add(const unsigned char &firstTerm,
-                           const unsigned char &secondTerm);
-  static int add(const int &firstTerm, const int &secondTerm);
-  static float add(const float &firstTerm, const float &secondTerm);
-  static long add(const long &firstTerm, const long &secondTerm);
-  static double add(const double &firstTerm, const double &secondTerm);
-};
-# 2 "/home/grigory/projects/polimorphism/addition.cpp" 2
+# 1 "/home/grigory/cpp/projects/polimorphism/addition.cpp"
+# 1 "/home/grigory/cpp/projects/polimorphism/addition.h" 1
+unsigned char { 0; 255 }
+firstTerm = 254
+secondTerm = 254
+result = 508
+# 2 "/home/grigory/cpp/projects/polimorphism/addition.cpp" 2
 
 unsigned char Addition::add(const unsigned char &firstTerm,
                             const unsigned char &secondTerm) {
   return firstTerm + secondTerm;
 }
 
-int Addition::add(const int &firstTerm, const int &secondTerm) {
+int Addition::add(const int &firstTerm,
+                  const int &secondTerm) {
   return firstTerm + secondTerm;
 }
 
-float Addition::add(const float &firstTerm, const float &secondTerm) {
+float Addition::add(const float &firstTerm,
+                    const float &secondTerm) {
   return firstTerm + secondTerm;
 }
 
-long Addition::add(const long &firstTerm, const long &secondTerm) {
+long Addition::add(const long &firstTerm,
+                   const long &secondTerm) {
   return firstTerm + secondTerm;
 }
 
-double Addition::add(const double &firstTerm, const double &secondTerm) {
+double Addition::add(const double &firstTerm,
+                     const double &secondTerm) {
   return firstTerm + secondTerm;
 }

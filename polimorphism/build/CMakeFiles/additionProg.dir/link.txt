@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -lpthread -save-temps -Wl,--dependency-file=CMakeFiles/additionProg.dir/link.d CMakeFiles/additionProg.dir/main.cpp.o CMakeFiles/additionProg.dir/addition.cpp.o -o additionProg  -Wl,-rpath,/home/grigory/projects/polimorphism/build libaddition.so
+/usr/bin/c++  -Wall -lpthread -save-temps -Wl,--dependency-file=CMakeFiles/additionProg.dir/link.d CMakeFiles/additionProg.dir/main.cpp.o -o additionProg

@@ -1,4 +1,3 @@
-/home/grigory/projects/polimorphism/build/CMakeFiles/addition.dir
-/home/grigory/projects/polimorphism/build/CMakeFiles/additionProg.dir
-/home/grigory/projects/polimorphism/build/CMakeFiles/edit_cache.dir
-/home/grigory/projects/polimorphism/build/CMakeFiles/rebuild_cache.dir
+/home/grigory/cpp/projects/polimorphism/build/CMakeFiles/additionProg.dir
+/home/grigory/cpp/projects/polimorphism/build/CMakeFiles/edit_cache.dir
+/home/grigory/cpp/projects/polimorphism/build/CMakeFiles/rebuild_cache.dir

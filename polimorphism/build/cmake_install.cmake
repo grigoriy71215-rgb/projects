@@ -1,4 +1,4 @@
-# Install script for directory: /home/grigory/projects/polimorphism
+# Install script for directory: /home/grigory/cpp/projects/polimorphism
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/grigory/projects/polimorphism/build/install_local_manifest.txt"
+  file(WRITE "/home/grigory/cpp/projects/polimorphism/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/grigory/projects/polimorphism/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/grigory/cpp/projects/polimorphism/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

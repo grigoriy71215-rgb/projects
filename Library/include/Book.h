@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+
 class Book {
 protected:
   std::string title;
@@ -14,4 +15,5 @@ public:
        bool is_available)
       : title(title), author(author), year(year), is_available(is_available) {}
   virtual std::string display_info() const;
+  virtual ~Book() = default;
 };

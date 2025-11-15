@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/grigory/projects/polimorphism/addition.cpp" "CMakeFiles/addition.dir/addition.cpp.o" "gcc" "CMakeFiles/addition.dir/addition.cpp.o.d"
+  "/home/grigory/cpp/projects/polimorphism/addition.cpp" "CMakeFiles/addition.dir/addition.cpp.o" "gcc" "CMakeFiles/addition.dir/addition.cpp.o.d"
   "" "libaddition.so" "gcc" "CMakeFiles/addition.dir/link.d"
   )
 
