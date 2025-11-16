@@ -2,7 +2,6 @@
 
 #include "Book.h"
 #include <string>
-
 class TextBook final : public Book {
 private:
   std::string subject;
@@ -14,7 +13,7 @@ public:
            bool is_available, const std::string &subject, int grade_level)
       : Book(title, author, year, is_available), subject(subject),
         grade_level(grade_level) {}
-  ~TextBook() = default;
+  virtual ~TextBook() = default;
 
   virtual std::string display_info() const override;
 };
