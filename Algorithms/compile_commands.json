@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/grigory/cpp/build/Algorithms",
+  "command": "/usr/bin/c++ -DHuman_EXPORTS -I/home/grigory/cpp/projects/Algorithms/include  -Wall -lpthread -std=gnu++23 -fPIC -o CMakeFiles/Human.dir/src/Human.cpp.o -c /home/grigory/cpp/projects/Algorithms/src/Human.cpp",
+  "file": "/home/grigory/cpp/projects/Algorithms/src/Human.cpp",
+  "output": "CMakeFiles/Human.dir/src/Human.cpp.o"
+}
+]
