@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/grigory/cpp/projects/qtform/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

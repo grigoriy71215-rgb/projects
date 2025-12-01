@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/grigory/cpp/projects/qtform/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/grigory/cpp/projects/qtform/build/QtForm_autogen/include -I/home/grigory/cpp/projects/qtform/include -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui  -Wall -lpthread -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/QtForm.dir/QtForm_autogen/mocs_compilation.cpp.o -c /home/grigory/cpp/projects/qtform/build/QtForm_autogen/mocs_compilation.cpp",
+  "file": "/home/grigory/cpp/projects/qtform/build/QtForm_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/QtForm.dir/QtForm_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/grigory/cpp/projects/qtform/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/grigory/cpp/projects/qtform/build/QtForm_autogen/include -I/home/grigory/cpp/projects/qtform/include -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui  -Wall -lpthread -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/QtForm.dir/main.cpp.o -c /home/grigory/cpp/projects/qtform/main.cpp",
+  "file": "/home/grigory/cpp/projects/qtform/main.cpp",
+  "output": "CMakeFiles/QtForm.dir/main.cpp.o"
+},
+{
+  "directory": "/home/grigory/cpp/projects/qtform/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/grigory/cpp/projects/qtform/build/QtForm_autogen/include -I/home/grigory/cpp/projects/qtform/include -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui  -Wall -lpthread -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/QtForm.dir/src/MainWindow.cpp.o -c /home/grigory/cpp/projects/qtform/src/MainWindow.cpp",
+  "file": "/home/grigory/cpp/projects/qtform/src/MainWindow.cpp",
+  "output": "CMakeFiles/QtForm.dir/src/MainWindow.cpp.o"
+}
+]

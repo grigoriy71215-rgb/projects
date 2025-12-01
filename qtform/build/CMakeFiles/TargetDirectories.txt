@@ -1,0 +1,5 @@
+/home/grigory/cpp/projects/qtform/build/CMakeFiles/QtForm.dir
+/home/grigory/cpp/projects/qtform/build/CMakeFiles/edit_cache.dir
+/home/grigory/cpp/projects/qtform/build/CMakeFiles/rebuild_cache.dir
+/home/grigory/cpp/projects/qtform/build/CMakeFiles/QtForm_autogen_timestamp_deps.dir
+/home/grigory/cpp/projects/qtform/build/CMakeFiles/QtForm_autogen.dir
