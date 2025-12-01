@@ -12,17 +12,18 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
-# *** СНАЧАЛА ОПРЕДЕЛЯЕМ ИСПОЛНЯЕМЫЙ ФАЙЛ ***
+include_directories(include)
+
+add_library(OurLabel SHARED ./src/OurLabel.cpp ./include/OurLabel.h)
+target_link_libraries(OurLabel PRIVATE Qt6::Widgets)
+
 add_executable(QtForm
     main.cpp
     src/MainWindow.cpp
     include/MainWindow.h
 )
 
-# *** ТОЛЬКО ПОТОМ УКАЗЫВАЕМ ПАПКИ INCLUDE И ЛИНКОВКУ ***
-
-# Используем target_include_directories (это современный подход)
 target_include_directories(QtForm PRIVATE include)
 
-target_link_libraries(QtForm PRIVATE Qt6::Widgets)
+target_link_libraries(QtForm PRIVATE Qt6::Widgets OurLabel)
 

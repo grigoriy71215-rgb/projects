@@ -1,0 +1,4 @@
+/home/grigory/cpp/projects/forward_declaration/build/CMakeFiles/A.dir
+/home/grigory/cpp/projects/forward_declaration/build/CMakeFiles/ForwardDeclaration.dir
+/home/grigory/cpp/projects/forward_declaration/build/CMakeFiles/edit_cache.dir
+/home/grigory/cpp/projects/forward_declaration/build/CMakeFiles/rebuild_cache.dir

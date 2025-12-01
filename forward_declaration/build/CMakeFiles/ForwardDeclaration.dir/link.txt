@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/ForwardDeclaration.dir/link.d CMakeFiles/ForwardDeclaration.dir/main.cpp.o -o ForwardDeclaration  -Wl,-rpath,/home/grigory/cpp/projects/forward_declaration/build libA.so

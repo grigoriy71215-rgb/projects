@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/grigory/cpp/projects/forward_declaration/build",
+  "command": "/usr/bin/c++ -DA_EXPORTS -I/home/grigory/cpp/projects/forward_declaration/include  -Wall -lpthread -std=gnu++20 -fPIC -o CMakeFiles/A.dir/src/A.cpp.o -c /home/grigory/cpp/projects/forward_declaration/src/A.cpp",
+  "file": "/home/grigory/cpp/projects/forward_declaration/src/A.cpp",
+  "output": "CMakeFiles/A.dir/src/A.cpp.o"
+},
+{
+  "directory": "/home/grigory/cpp/projects/forward_declaration/build",
+  "command": "/usr/bin/c++  -I/home/grigory/cpp/projects/forward_declaration/include  -Wall -lpthread -std=gnu++20 -o CMakeFiles/ForwardDeclaration.dir/main.cpp.o -c /home/grigory/cpp/projects/forward_declaration/main.cpp",
+  "file": "/home/grigory/cpp/projects/forward_declaration/main.cpp",
+  "output": "CMakeFiles/ForwardDeclaration.dir/main.cpp.o"
+}
+]

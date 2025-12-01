@@ -485,7 +485,10 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/grigory/cpp/projects/qtform/build/QtForm_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"/home/grigory/cpp/projects/qtform/build/OurLabel_autogen/mocs_compilation.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "/home/grigory/cpp/projects/qtform/build/CMakeFiles/QtForm_autogen.dir/ParseCache.txt",
@@ -501,7 +504,10 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/grigory/cpp/projects/qtform/build/OurLabel_autogen/mocs_compilation.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0

@@ -1,8 +1,8 @@
 CMakeFiles/QtForm.dir/main.cpp.o: \
  /home/grigory/cpp/projects/qtform/main.cpp /usr/include/stdc-predef.h \
  /home/grigory/cpp/projects/qtform/include/MainWindow.h \
- /usr/include/qt6/QtWidgets/QMainWindow \
- /usr/include/qt6/QtWidgets/qmainwindow.h \
+ /home/grigory/cpp/projects/qtform/include/OurLabel.h \
+ /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/c++/15.2.1/type_traits \
@@ -150,7 +150,7 @@ CMakeFiles/QtForm.dir/main.cpp.o: \
  /usr/include/qt6/QtGui/qtguiexports.h \
  /usr/include/qt6/QtWidgets/qtwidgets-config.h \
  /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
- /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtGui/qwindowdefs.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qcompare.h \
@@ -344,6 +344,16 @@ CMakeFiles/QtForm.dir/main.cpp.o: \
  /usr/include/qt6/QtGui/qfontvariableaxis.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
+ /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtCore/qiodevice.h \
+ /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
+ /usr/include/qt6/QtWidgets/QHBoxLayout \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/qlayoutitem.h \
+ /usr/include/qt6/QtWidgets/qboxlayout.h \
+ /usr/include/qt6/QtWidgets/qgridlayout.h \
+ /usr/include/qt6/QtWidgets/QMainWindow \
+ /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/qtabwidget.h \
  /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtWidgets/QApplication \
@@ -358,8 +368,4 @@ CMakeFiles/QtForm.dir/main.cpp.o: \
  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/qt6/QtGui/qguiapplication.h \
  /usr/include/qt6/QtGui/qinputmethod.h /usr/include/qt6/QtCore/qlocale.h \
- /usr/include/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
- /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtGui/qpicture.h \
- /usr/include/qt6/QtCore/qiodevice.h \
- /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h
+ /usr/include/qt6/QtGui/qguiapplication_platform.h

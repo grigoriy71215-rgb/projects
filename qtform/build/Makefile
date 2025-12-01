@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OurLabel
+
+# Build rule for target.
+OurLabel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OurLabel
+.PHONY : OurLabel
+
+# fast build rule for target.
+OurLabel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel.dir/build.make CMakeFiles/OurLabel.dir/build
+.PHONY : OurLabel/fast
+
+#=============================================================================
 # Target rules for targets named QtForm
 
 # Build rule for target.
@@ -128,6 +141,32 @@ QtForm: cmake_check_build_system
 QtForm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtForm.dir/build.make CMakeFiles/QtForm.dir/build
 .PHONY : QtForm/fast
+
+#=============================================================================
+# Target rules for targets named OurLabel_autogen_timestamp_deps
+
+# Build rule for target.
+OurLabel_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OurLabel_autogen_timestamp_deps
+.PHONY : OurLabel_autogen_timestamp_deps
+
+# fast build rule for target.
+OurLabel_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel_autogen_timestamp_deps.dir/build.make CMakeFiles/OurLabel_autogen_timestamp_deps.dir/build
+.PHONY : OurLabel_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named OurLabel_autogen
+
+# Build rule for target.
+OurLabel_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OurLabel_autogen
+.PHONY : OurLabel_autogen
+
+# fast build rule for target.
+OurLabel_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel_autogen.dir/build.make CMakeFiles/OurLabel_autogen.dir/build
+.PHONY : OurLabel_autogen/fast
 
 #=============================================================================
 # Target rules for targets named QtForm_autogen_timestamp_deps
@@ -154,6 +193,30 @@ QtForm_autogen: cmake_check_build_system
 QtForm_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtForm_autogen.dir/build.make CMakeFiles/QtForm_autogen.dir/build
 .PHONY : QtForm_autogen/fast
+
+OurLabel_autogen/mocs_compilation.o: OurLabel_autogen/mocs_compilation.cpp.o
+.PHONY : OurLabel_autogen/mocs_compilation.o
+
+# target to build an object file
+OurLabel_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel.dir/build.make CMakeFiles/OurLabel.dir/OurLabel_autogen/mocs_compilation.cpp.o
+.PHONY : OurLabel_autogen/mocs_compilation.cpp.o
+
+OurLabel_autogen/mocs_compilation.i: OurLabel_autogen/mocs_compilation.cpp.i
+.PHONY : OurLabel_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+OurLabel_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel.dir/build.make CMakeFiles/OurLabel.dir/OurLabel_autogen/mocs_compilation.cpp.i
+.PHONY : OurLabel_autogen/mocs_compilation.cpp.i
+
+OurLabel_autogen/mocs_compilation.s: OurLabel_autogen/mocs_compilation.cpp.s
+.PHONY : OurLabel_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+OurLabel_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel.dir/build.make CMakeFiles/OurLabel.dir/OurLabel_autogen/mocs_compilation.cpp.s
+.PHONY : OurLabel_autogen/mocs_compilation.cpp.s
 
 QtForm_autogen/mocs_compilation.o: QtForm_autogen/mocs_compilation.cpp.o
 .PHONY : QtForm_autogen/mocs_compilation.o
@@ -227,6 +290,30 @@ src/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtForm.dir/build.make CMakeFiles/QtForm.dir/src/MainWindow.cpp.s
 .PHONY : src/MainWindow.cpp.s
 
+src/OurLabel.o: src/OurLabel.cpp.o
+.PHONY : src/OurLabel.o
+
+# target to build an object file
+src/OurLabel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel.dir/build.make CMakeFiles/OurLabel.dir/src/OurLabel.cpp.o
+.PHONY : src/OurLabel.cpp.o
+
+src/OurLabel.i: src/OurLabel.cpp.i
+.PHONY : src/OurLabel.i
+
+# target to preprocess a source file
+src/OurLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel.dir/build.make CMakeFiles/OurLabel.dir/src/OurLabel.cpp.i
+.PHONY : src/OurLabel.cpp.i
+
+src/OurLabel.s: src/OurLabel.cpp.s
+.PHONY : src/OurLabel.s
+
+# target to generate assembly for a file
+src/OurLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OurLabel.dir/build.make CMakeFiles/OurLabel.dir/src/OurLabel.cpp.s
+.PHONY : src/OurLabel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,9 +322,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... OurLabel_autogen"
+	@echo "... OurLabel_autogen_timestamp_deps"
 	@echo "... QtForm_autogen"
 	@echo "... QtForm_autogen_timestamp_deps"
+	@echo "... OurLabel"
 	@echo "... QtForm"
+	@echo "... OurLabel_autogen/mocs_compilation.o"
+	@echo "... OurLabel_autogen/mocs_compilation.i"
+	@echo "... OurLabel_autogen/mocs_compilation.s"
 	@echo "... QtForm_autogen/mocs_compilation.o"
 	@echo "... QtForm_autogen/mocs_compilation.i"
 	@echo "... QtForm_autogen/mocs_compilation.s"
@@ -247,6 +340,9 @@ help:
 	@echo "... src/MainWindow.o"
 	@echo "... src/MainWindow.i"
 	@echo "... src/MainWindow.s"
+	@echo "... src/OurLabel.o"
+	@echo "... src/OurLabel.i"
+	@echo "... src/OurLabel.s"
 .PHONY : help
 
 

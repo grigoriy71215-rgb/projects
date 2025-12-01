@@ -6,6 +6,7 @@ QtForm: \
   CMakeFiles/QtForm.dir/QtForm_autogen/mocs_compilation.cpp.o \
   CMakeFiles/QtForm.dir/main.cpp.o \
   CMakeFiles/QtForm.dir/src/MainWindow.cpp.o \
+  libOurLabel.so \
   /usr/lib/libQt6Widgets.so.6.10.1 \
   /usr/lib/libQt6Gui.so.6.10.1 \
   /usr/lib/libGLX.so \
@@ -84,6 +85,8 @@ CMakeFiles/QtForm.dir/QtForm_autogen/mocs_compilation.cpp.o:
 CMakeFiles/QtForm.dir/main.cpp.o:
 
 CMakeFiles/QtForm.dir/src/MainWindow.cpp.o:
+
+libOurLabel.so:
 
 /usr/lib/libQt6Widgets.so.6.10.1:
 

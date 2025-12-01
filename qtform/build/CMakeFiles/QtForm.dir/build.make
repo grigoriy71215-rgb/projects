@@ -135,6 +135,7 @@ QtForm: CMakeFiles/QtForm.dir/main.cpp.o
 QtForm: CMakeFiles/QtForm.dir/src/MainWindow.cpp.o
 QtForm: CMakeFiles/QtForm.dir/build.make
 QtForm: CMakeFiles/QtForm.dir/compiler_depend.ts
+QtForm: libOurLabel.so
 QtForm: /usr/lib/libQt6Widgets.so.6.10.1
 QtForm: /usr/lib/libQt6Gui.so.6.10.1
 QtForm: /usr/lib/libGLX.so
