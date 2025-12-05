@@ -1,0 +1,4 @@
+jjjjgetCountOfRanks(twoNumberDigit)Дано число:
+int num = 10;
+
+Проверьте, что это число двухзначное.
