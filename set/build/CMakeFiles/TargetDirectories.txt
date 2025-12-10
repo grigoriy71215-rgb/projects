@@ -1,0 +1,4 @@
+/home/grigory/cpp/projects/set/build/CMakeFiles/Set.dir
+/home/grigory/cpp/projects/set/build/CMakeFiles/SetExecutable.dir
+/home/grigory/cpp/projects/set/build/CMakeFiles/edit_cache.dir
+/home/grigory/cpp/projects/set/build/CMakeFiles/rebuild_cache.dir

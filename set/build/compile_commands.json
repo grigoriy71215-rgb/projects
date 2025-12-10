@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/grigory/cpp/projects/set/build",
+  "command": "/usr/bin/c++ -DSet_EXPORTS -I/home/grigory/cpp/projects/set/include  -Wall -lpthread -std=gnu++23 -fPIC -o CMakeFiles/Set.dir/src/Set.cpp.o -c /home/grigory/cpp/projects/set/src/Set.cpp",
+  "file": "/home/grigory/cpp/projects/set/src/Set.cpp",
+  "output": "CMakeFiles/Set.dir/src/Set.cpp.o"
+},
+{
+  "directory": "/home/grigory/cpp/projects/set/build",
+  "command": "/usr/bin/c++  -I/home/grigory/cpp/projects/set/include  -Wall -lpthread -std=gnu++23 -o CMakeFiles/SetExecutable.dir/main.cpp.o -c /home/grigory/cpp/projects/set/main.cpp",
+  "file": "/home/grigory/cpp/projects/set/main.cpp",
+  "output": "CMakeFiles/SetExecutable.dir/main.cpp.o"
+}
+]

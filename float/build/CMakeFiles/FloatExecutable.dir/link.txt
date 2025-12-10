@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/FloatExecutable.dir/link.d CMakeFiles/FloatExecutable.dir/main.cpp.o -o FloatExecutable  -Wl,-rpath,/home/grigory/cpp/projects/float/build libFloat.so

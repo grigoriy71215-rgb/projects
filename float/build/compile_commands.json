@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/grigory/cpp/projects/float/build",
+  "command": "/usr/bin/c++ -DFloat_EXPORTS -I/home/grigory/cpp/projects/float/include  -Wall -lpthread -std=gnu++23 -fPIC -o CMakeFiles/Float.dir/src/Float.cpp.o -c /home/grigory/cpp/projects/float/src/Float.cpp",
+  "file": "/home/grigory/cpp/projects/float/src/Float.cpp",
+  "output": "CMakeFiles/Float.dir/src/Float.cpp.o"
+},
+{
+  "directory": "/home/grigory/cpp/projects/float/build",
+  "command": "/usr/bin/c++  -I/home/grigory/cpp/projects/float/include  -Wall -lpthread -std=gnu++23 -o CMakeFiles/FloatExecutable.dir/main.cpp.o -c /home/grigory/cpp/projects/float/main.cpp",
+  "file": "/home/grigory/cpp/projects/float/main.cpp",
+  "output": "CMakeFiles/FloatExecutable.dir/main.cpp.o"
+}
+]

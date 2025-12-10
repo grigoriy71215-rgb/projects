@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/SetExecutable.dir/link.d CMakeFiles/SetExecutable.dir/main.cpp.o -o SetExecutable  -Wl,-rpath,/home/grigory/cpp/projects/set/build libSet.so

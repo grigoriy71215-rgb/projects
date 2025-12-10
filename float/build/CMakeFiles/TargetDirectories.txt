@@ -1,0 +1,4 @@
+/home/grigory/cpp/projects/float/build/CMakeFiles/Float.dir
+/home/grigory/cpp/projects/float/build/CMakeFiles/FloatExecutable.dir
+/home/grigory/cpp/projects/float/build/CMakeFiles/edit_cache.dir
+/home/grigory/cpp/projects/float/build/CMakeFiles/rebuild_cache.dir

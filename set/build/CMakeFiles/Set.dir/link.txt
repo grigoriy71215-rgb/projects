@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -lpthread -shared -Wl,--dependency-file=CMakeFiles/Set.dir/link.d -Wl,-soname,libSet.so -o libSet.so CMakeFiles/Set.dir/src/Set.cpp.o
