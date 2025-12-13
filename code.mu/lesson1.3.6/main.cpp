@@ -9,7 +9,7 @@ std::map<Seasons, std::string> seasons = {{Seasons::WINTER, "зима"},
                                           {Seasons::SUMMER, "лето"},
                                           {Seasons::AUTUMN, "осень"}};
 
-std::string getSeason(Seasons season) {
+std::string &getSeason(Seasons season) {
   for (auto [key, value] : seasons) {
     if (key == season)
       return value;
