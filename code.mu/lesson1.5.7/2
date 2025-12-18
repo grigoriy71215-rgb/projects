@@ -1,0 +1,42 @@
+#include <iostream>
+#include <string>
+
+void addCharToString(char ch, std::string &str) { str += ch; }
+
+void addToString(std::string &str, std::initializer_list<char> chil) {
+  for (auto ch : chil)
+    str += ch;
+}
+
+void addToString(std::string &str, std::initializer_list<std::string> chil) {
+  for (auto ch : chil)
+    str += ch;
+}
+
+void printCharsInIL(std::initializer_list<char> chil) {
+  for (auto ch : chil) {
+    std::cout << ch << ' ';
+  }
+}
+
+int main() {
+  char chr1 = 'a';
+  char chr2 = 'b';
+  char chr3 = 'c';
+  char chr4 = 'z';
+  char chr5 = 'f';
+  std::string str;
+  // for (auto chr : {chr1, chr2, chr3})
+  //   addCharToString(chr, str);
+  addToString(str, {chr1, chr2, chr3, chr4, chr5});
+
+  std::string str1 = "abc";
+  std::string str2 = "def";
+  std::string str3 = "ghi";
+
+  addToString(str, {str1, str2, str3});
+
+  std::cout << "Символы " << str << '\n';
+
+  return 0;
+}

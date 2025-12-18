@@ -1,0 +1,9 @@
+Даны три символа:
+
+char chr1 = 'a';
+char chr2 = 'b';
+char chr3 = 'c';
+Слейте эти символы в строку:
+
+std::string "abc"
+
