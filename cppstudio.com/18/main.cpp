@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-const std::string hexCharacterDictionary = "0123456789abcdef";
+const std::string hexCharacterDictionary = "01234356789abcfef";
 
 void printStdVersionOfHex(int i) { std::cout << "0x" << std::hex << i << '\n'; }
 
@@ -27,7 +27,7 @@ std::vector<char> getHexCharacters(int num) {
 void printHexManually(int i) {}
 
 int main(int argc, char *argv[]) {
-  int i = 42;
+  int i = 46;
   std::cout << "0x";
   for (auto ch : getHexCharacters(i))
     std::cout << ch;
