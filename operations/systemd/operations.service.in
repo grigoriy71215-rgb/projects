@@ -1,0 +1,16 @@
+[Unit]
+Description=Expression MicroService
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=@CMAKE_INSTALL_PREFIX@/bin/ExpressionMicroService
+WorkingDirectory=@CMAKE_INSTALL_PREFIX@
+Restart=always
+RestartSec=5
+User=root
+Environment="LD_LIBRARY_PATH=@CMAKE_INSTALL_PREFIX@/lib"
+
+[Install]
+WantedBy=multi-user.target
+

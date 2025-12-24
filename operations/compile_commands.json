@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/grigory/cpp/build/Operations",
+  "command": "/usr/bin/c++ -DIntegerOperations_EXPORTS -I/home/grigory/cpp/projects/operations/include -Wall -lpthread -std=gnu++20 -fPIC -o CMakeFiles/IntegerOperations.dir/src/IntegerOperations.cpp.o -c /home/grigory/cpp/projects/operations/src/IntegerOperations.cpp",
+  "file": "/home/grigory/cpp/projects/operations/src/IntegerOperations.cpp",
+  "output": "CMakeFiles/IntegerOperations.dir/src/IntegerOperations.cpp.o"
+}
+]
