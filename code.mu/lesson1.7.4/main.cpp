@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+int getRanksOfString(std::string &str) {
+  int numberFromString = 0;
+  for (std::string::iterator it = str.begin(); it != str.end(); ++it) {
+    if (*it >= 48 && *it <= 57)
+      numberFromString += *it - 48;
+  }
+  return numberFromString;
+}
+
+int getNextRank(int &number) {
+  int remainder = number % 10;
+  number /= 10;
+  return remainder;
+}
+
+int main(int argc, char *argv[]) {
+  std::string str = "123456789";
+  std::cout << getRanksOfString(str) << '\n';
+  return 0;
+}
