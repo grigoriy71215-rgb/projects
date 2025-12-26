@@ -17,9 +17,12 @@ configure_file(
 include_directories(include)
 
 add_library(IntegerOperations SHARED ./src/IntegerOperations.cpp)
+add_library(StringOperations SHARED ./src/StringOperations.cpp)
 
 # 1. Сначала экспортируем цели
-install(TARGETS IntegerOperations
+install(TARGETS
+    IntegerOperations
+    StringOperations
     EXPORT OperationsTargets
     RUNTIME DESTINATION bin
     LIBRARY DESTINATION lib/operations
@@ -29,6 +32,7 @@ install(TARGETS IntegerOperations
 # 2. Установка заголовочных файлов
 install(FILES
     include/IntegerOperations.h
+    include/StringOperations.h
     DESTINATION include/operations
 )
 
