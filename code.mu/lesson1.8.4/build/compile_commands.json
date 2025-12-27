@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/grigory/cpp/projects/code.mu/lesson1.8.4/build",
+  "command": "/usr/bin/c++    -Wall -lpthread -std=gnu++20 -o CMakeFiles/SumRanks.dir/main.cpp.o -c /home/grigory/cpp/projects/code.mu/lesson1.8.4/main.cpp",
+  "file": "/home/grigory/cpp/projects/code.mu/lesson1.8.4/main.cpp",
+  "output": "CMakeFiles/SumRanks.dir/main.cpp.o"
+}
+]

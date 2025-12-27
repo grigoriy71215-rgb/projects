@@ -1,9 +1,9 @@
 #include <iomanip>
 #include <iostream>
 
-void multiplyBy1024(float &prev) { prev *= 1024; }
+void divideBy1024(double &num) { num /= 1024; }
 
-const char *sizes[] = {"MB", "KB", "B"};
+const char *sizes[] = {"Kb", "Mb", "Gb"};
 
 const char *&getSizeNameById(int id) { return sizes[id]; }
 
@@ -15,14 +15,13 @@ struct space_out : std::numpunct<char> {
 };
 
 int main(int argc, char *argv[]) {
-  float size = 35.24;
-  std::cout << "Объем " << size << "Gb в других единицах:\n";
+  double b = 7435421243;
+  std::cout << "Объем " << b << "Б в других единицах:\n";
   std::cout.imbue(std::locale(std::cout.getloc(), new space_out));
   for (int id = 0; id < 3; ++id) {
-    multiplyBy1024(size);
+    divideBy1024(b);
     std::cout << std::fixed << std::setprecision(2);
-    std::cout << " - " << size << ' ' << getSizeNameById(id) << '\n';
+    std::cout << " - " << b << ' ' << getSizeNameById(id) << '\n';
   }
-  std::cout << 23423432.0 << "\n";
   return 0;
 }

@@ -1,0 +1,3 @@
+/home/grigory/cpp/projects/CoutTesting/build/CMakeFiles/CoutTesting.dir
+/home/grigory/cpp/projects/CoutTesting/build/CMakeFiles/edit_cache.dir
+/home/grigory/cpp/projects/CoutTesting/build/CMakeFiles/rebuild_cache.dir

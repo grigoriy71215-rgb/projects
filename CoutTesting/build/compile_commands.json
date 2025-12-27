@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/grigory/cpp/projects/CoutTesting/build",
+  "command": "/usr/bin/c++    -Wall -lpthread -std=gnu++20 -o CMakeFiles/CoutTesting.dir/main.cpp.o -c /home/grigory/cpp/projects/CoutTesting/main.cpp",
+  "file": "/home/grigory/cpp/projects/CoutTesting/main.cpp",
+  "output": "CMakeFiles/CoutTesting.dir/main.cpp.o"
+}
+]

@@ -1,8 +1,20 @@
 [
 {
-  "directory": "/home/grigory/cpp/build",
-  "command": "/usr/bin/c++ -DCinFeatures_EXPORTS -I/home/grigory/cpp/projects/Utilities/./include  -Wall -lpthread -std=gnu++23 -fPIC -o CMakeFiles/CinFeatures.dir/src/CinFeatures.cpp.o -c /home/grigory/cpp/projects/Utilities/src/CinFeatures.cpp",
-  "file": "/home/grigory/cpp/projects/Utilities/src/CinFeatures.cpp",
-  "output": "CMakeFiles/CinFeatures.dir/src/CinFeatures.cpp.o"
+  "directory": "/home/avr/Code/projects/cpp/build/Utilities",
+  "command": "clang++ -DCinFeatures_EXPORTS -I/home/avr/Code/projects/cpp/Utilities/./include  -Wall -std=gnu++23 -fPIC -o CMakeFiles/CinFeatures.dir/src/system/CinFeatures.cpp.o -c /home/avr/Code/projects/cpp/Utilities/src/system/CinFeatures.cpp",
+  "file": "/home/avr/Code/projects/cpp/Utilities/src/system/CinFeatures.cpp",
+  "output": "CMakeFiles/CinFeatures.dir/src/system/CinFeatures.cpp.o"
+},
+{
+  "directory": "/home/avr/Code/projects/cpp/build/Utilities",
+  "command": "clang++ -DSafeInput_EXPORTS -I/home/avr/Code/projects/cpp/Utilities/./include  -Wall -std=gnu++23 -fPIC -o CMakeFiles/SafeInput.dir/src/system/SafeInput.cpp.o -c /home/avr/Code/projects/cpp/Utilities/src/system/SafeInput.cpp",
+  "file": "/home/avr/Code/projects/cpp/Utilities/src/system/SafeInput.cpp",
+  "output": "CMakeFiles/SafeInput.dir/src/system/SafeInput.cpp.o"
+},
+{
+  "directory": "/home/avr/Code/projects/cpp/build/Utilities",
+  "command": "clang++ -DLocalDate_EXPORTS -I/home/avr/Code/projects/cpp/Utilities/./include  -Wall -std=gnu++23 -fPIC -o CMakeFiles/LocalDate.dir/src/types/LocalDate.cpp.o -c /home/avr/Code/projects/cpp/Utilities/src/types/LocalDate.cpp",
+  "file": "/home/avr/Code/projects/cpp/Utilities/src/types/LocalDate.cpp",
+  "output": "CMakeFiles/LocalDate.dir/src/types/LocalDate.cpp.o"
 }
 ]

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/SumRanks.dir/link.d CMakeFiles/SumRanks.dir/main.cpp.o -o SumRanks  -Wl,-rpath,/usr/local/lib/operations:/usr/local/lib/utilities /usr/local/lib/operations/libIntegerOperations.so /usr/local/lib/utilities/libCoutExtended.so
