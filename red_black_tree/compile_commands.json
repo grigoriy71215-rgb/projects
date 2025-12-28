@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/grigory/cpp/build/red_black_tree",
+  "command": "/usr/bin/c++ -DBinaryTree_EXPORTS -I/home/grigory/cpp/projects/red_black_tree/include  -Wall -lpthread -std=gnu++20 -fPIC -o CMakeFiles/BinaryTree.dir/src/abstracts/BinaryTree.cpp.o -c /home/grigory/cpp/projects/red_black_tree/src/abstracts/BinaryTree.cpp",
+  "file": "/home/grigory/cpp/projects/red_black_tree/src/abstracts/BinaryTree.cpp",
+  "output": "CMakeFiles/BinaryTree.dir/src/abstracts/BinaryTree.cpp.o"
+}
+]
