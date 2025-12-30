@@ -7,5 +7,5 @@ private:
   StringOperations() = delete;
 
 public:
-  static int getRanksOfString(std::string &str);
+  static int getSumRanksOfString(std::string &str);
 };

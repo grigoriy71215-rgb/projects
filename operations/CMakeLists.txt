@@ -16,11 +16,13 @@ configure_file(
 
 include_directories(include)
 
+add_library(CharOperations SHARED ./src/CharOperations.cpp)
 add_library(IntegerOperations SHARED ./src/IntegerOperations.cpp)
 add_library(StringOperations SHARED ./src/StringOperations.cpp)
 
 # 1. Сначала экспортируем цели
 install(TARGETS
+    CharOperations
     IntegerOperations
     StringOperations
     EXPORT OperationsTargets
@@ -31,6 +33,7 @@ install(TARGETS
 
 # 2. Установка заголовочных файлов
 install(FILES
+    include/CharOperations.h
     include/IntegerOperations.h
     include/StringOperations.h
     DESTINATION include/operations

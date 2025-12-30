@@ -10,7 +10,7 @@ void BinaryTree::checkValidness() {
   valid = (left.get() != right.lock().get());
 }
 
-bool BinaryTree::operator==(BinaryTree &other) const noexcept {
+bool BinaryTree::operator==(const BinaryTree &other) const noexcept {
   return value == other.value && left.get() == right.lock().get();
 }
 

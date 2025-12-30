@@ -18,7 +18,8 @@ protected:
 public:
   bool isValid() const { return valid; }
   virtual ~BinaryTree() = default;
-  bool operator==(BinaryTree &other) const noexcept;
+
+  virtual bool operator==(const BinaryTree &other) const noexcept;
 
   virtual void insertValue(int value) = 0;
   virtual void updateValue(int value) = 0;

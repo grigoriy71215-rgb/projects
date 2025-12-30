@@ -1,6 +1,6 @@
 #include "StringOperations.h"
 
-int StringOperations::getRanksOfString(std::string &str) {
+int StringOperations::getSumRanksOfString(std::string &str) {
   int numberFromString = 0;
   for (std::string::iterator it = str.begin(); it != str.end(); ++it) {
     if (*it >= 48 && *it <= 57)
