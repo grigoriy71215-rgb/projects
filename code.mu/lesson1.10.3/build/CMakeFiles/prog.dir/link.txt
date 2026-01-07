@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -lpthread -Wl,--dependency-file=CMakeFiles/prog.dir/link.d CMakeFiles/prog.dir/main.cpp.o -o prog  -Wl,-rpath,/usr/local/lib/operations /usr/local/lib/operations/libIntegerOperations.so

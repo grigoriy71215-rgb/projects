@@ -1,0 +1,3 @@
+/home/grigory/cpp/projects/code.mu/lesson1.10.3/build/CMakeFiles/prog.dir
+/home/grigory/cpp/projects/code.mu/lesson1.10.3/build/CMakeFiles/edit_cache.dir
+/home/grigory/cpp/projects/code.mu/lesson1.10.3/build/CMakeFiles/rebuild_cache.dir
