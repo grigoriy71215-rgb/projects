@@ -18,6 +18,8 @@ int moveAllRanks(int source) {
 
 int main(int argc, char *argv[]) {
   int i = 1234567;
-  std::cout << "Число " << i << " наоборот: " << moveAllRanks(i) << '\n';
+  // std::cout << "Число " << i << " наоборот: " << moveAllRanks(i) << '\n';
+  std::cout << "Число " << i << " наоборот: " << IntegerOperations::reverse(i)
+            << '\n';
   return 0;
 }
